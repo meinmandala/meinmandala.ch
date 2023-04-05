@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(255, 215, 200);
+    font-family: 'Montserrat'; font-size: 14px;
+  }
+
+h1 {
+    font-family: 'Montserrat'; font-size: 50px; font-weight: 700;
+}
+
+#editor {
+    display: grid;
+    grid-gap: 1em;
+    align-content: center;
+}
+#code {
+    width: 100%;
+    min-height: 20em;
+    font-size: 11px;
+    font-family: 'Consolas';
+}
+Element {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
